@@ -23,7 +23,7 @@ namespace eShop
         public string image = @"C:\Users\Lenovo\Pictures\Screenshot (6).png";
 
         string query = "";
-        OleDbConnection db = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Lenovo\Documents\shop.mdb");
+        OleDbConnection db = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=./shop.mdb");
 
         public updateProduct()
         {

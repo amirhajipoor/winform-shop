@@ -13,8 +13,7 @@ namespace eShop
 {
     public partial class searchProduct : Form
     {
-        OleDbConnection db = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Lenovo\Documents\shop.mdb");
-        string query = "";
+        OleDbConnection db = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=./shop.mdb");
 
         public searchProduct()
         {

@@ -14,7 +14,7 @@ namespace eShop
 {
     public partial class editProduct : Form
     {
-        OleDbConnection db = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Lenovo\Documents\shop.mdb");
+        OleDbConnection db = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=./shop.mdb");
         string query = "";
         string imagePath = "";
 
